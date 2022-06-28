@@ -28,15 +28,9 @@
     "johnpbloch/wordpress-core": "^6.0",
     "platformsh/config-reader": "^2.4",
     "psy/psysh": "^0.10.6",
-<<<<<<< Updated upstream
-    "wpackagist-plugin/akismet": "^4.2.3",
-    "wpackagist-plugin/wpforms-lite": "^1.7.3",
-    "wpackagist-theme/astra": "^3.7.9"
-=======
     "wpackagist-plugin/akismet": "^4.2.4",
     "wpackagist-plugin/wpforms-lite": "^1.7.4.2",
     "wpackagist-theme/astra": "^3.8.4"
->>>>>>> Stashed changes
   },
   "config": {
   },
