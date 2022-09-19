@@ -25,12 +25,12 @@
   "require": {
     "php": ">=8.0",
     "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-    "johnpbloch/wordpress-core": "^6.0",
+    "johnpbloch/wordpress-core": "^6.0.2",
     "platformsh/config-reader": "^2.4",
     "psy/psysh": "^0.10.6",
-    "wpackagist-plugin/akismet": "^4.2.4",
-    "wpackagist-plugin/wpforms-lite": "^1.7.4.2",
-    "wpackagist-theme/astra": "^3.8.4"
+    "wpackagist-plugin/akismet": "^5.0",
+    "wpackagist-plugin/wpforms-lite": "^1.7.6",
+    "wpackagist-theme/astra": "^3.9.2"
   },
   "config": {
   },
