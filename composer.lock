@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< Updated upstream
     "content-hash": "82de3c2d16070046aec048bc7c0dae91",
+=======
+    "content-hash": "90b20fc7b1ffd9fb1479d3793701a7fb",
+>>>>>>> Stashed changes
     "packages": [
         {
             "name": "composer/installers",
@@ -1413,6 +1417,7 @@
         },
         {
             "name": "wpackagist-plugin/wpforms-lite",
+<<<<<<< Updated upstream
             "version": "1.8.2.2",
             "source": {
                 "type": "svn",
@@ -1422,6 +1427,17 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.8.2.2.zip"
+=======
+            "version": "1.8.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
+                "reference": "tags/1.8.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.8.2.3.zip"
+>>>>>>> Stashed changes
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1446,12 +1462,79 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/astra/"
+        },
+        {
+            "name": "yoast/wordpress-seo",
+            "version": "20.13-RC1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast-dist/wordpress-seo.git",
+                "reference": "0a02ba138185d301743e520b772e60dbd9e6c900"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/0a02ba138185d301743e520b772e60dbd9e6c900",
+                "reference": "0a02ba138185d301743e520b772e60dbd9e6c900",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.12 || ^2.0",
+                "php": "^7.2.5 || ^8.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "6.5.8",
+                "humbug/php-scoper": "^0.13.4",
+                "league/oauth2-client": "2.6.1",
+                "psr/container": "1.0.0",
+                "psr/log": "^1.0",
+                "symfony/config": "^3.4",
+                "symfony/dependency-injection": "^3.4",
+                "wordproof/wordpress-sdk": "1.3.2",
+                "yoast/wp-test-utils": "^1.1.1",
+                "yoast/yoastcs": "^2.3.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "classmap": [
+                    "admin/",
+                    "inc/",
+                    "vendor_prefixed/",
+                    "src/",
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoa.st/1--"
+                }
+            ],
+            "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the Yoast SEO plugin.",
+            "homepage": "https://yoa.st/1ui",
+            "keywords": [
+                "seo",
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://wordpress.org/support/plugin/wordpress-seo",
+                "issues": "https://github.com/Yoast/wordpress-seo/issues",
+                "source": "https://github.com/Yoast/wordpress-seo",
+                "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
+            },
+            "time": "2023-07-25T09:56:08+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "yoast/wordpress-seo": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

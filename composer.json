@@ -29,8 +29,14 @@
     "platformsh/config-reader": "^2.4",
     "psy/psysh": "^0.10.6",
     "wpackagist-plugin/akismet": "^5.2",
+<<<<<<< Updated upstream
     "wpackagist-plugin/wpforms-lite": "^1.8.2.2",
     "wpackagist-theme/astra": "^4.1.6"
+=======
+    "wpackagist-plugin/wpforms-lite": "^1.8.2.3",
+    "wpackagist-theme/astra": "^4.1.4",
+    "yoast/wordpress-seo": "^20.13-RC1"
+>>>>>>> Stashed changes
   },
   "config": {
   },
