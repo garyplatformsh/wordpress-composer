@@ -25,12 +25,13 @@
   "require": {
     "php": ">=8.0",
     "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-    "johnpbloch/wordpress-core": "^6.2.2",
+    "johnpbloch/wordpress-core": "^6.3",
     "platformsh/config-reader": "^2.4",
     "psy/psysh": "^0.10.6",
     "wpackagist-plugin/akismet": "^5.2",
-    "wpackagist-plugin/wpforms-lite": "^1.8.2.2",
-    "wpackagist-theme/astra": "^4.1.6"
+    "wpackagist-plugin/wpforms-lite": "^1.8.3.1",
+    "wpackagist-theme/astra": "^4.2.2",
+    "wpackagist-plugin/wordpress-seo": "^21.0"
   },
   "config": {
   },
@@ -58,12 +59,5 @@
         "type:wordpress-muplugin"
       ]
     }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    }
-    
-  ]
+  }
 }
